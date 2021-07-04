@@ -1,0 +1,15 @@
+.MODEL SMALL
+.STACK 100H
+.data
+time_buff db '00:00:00$' ;time buffer
+.code
+main proc
+
+
+
+
+mov ah,4ch
+int 21h
+
+main endp
+end main

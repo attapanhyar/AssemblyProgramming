@@ -1,0 +1,5 @@
+.model small
+.stack 100h
+.data
+msg db 'HELLO'
+des1 db 5 DUP ('?')
